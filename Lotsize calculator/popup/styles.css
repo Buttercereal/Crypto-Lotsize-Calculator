@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    width: 300px;
+    color: white;
+    background-color: black;
+}
+
+.button1 {
+    background-color: gold;
+    border-radius: 10%;
+    border-color: white;
+}
+
+.button2 {
+    border-radius: 10%;
+    border-color: white;
+}
+
+
+.button3 {
+    background-color: greenyellow;
+    border-radius: 10%;
+    border-color: white;
+}
+
+.button4 {
+    background-color: rgb(50, 119, 246);
+    border-radius: 10%;
+    border-color: white;
+}
+
+#result {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#lotsizeresult {
+    font-size: 16px;
+
+}
+
+form input,
+form button {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+#result {
+    margin-top: 10px;
+}

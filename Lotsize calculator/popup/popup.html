@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../popup/styles.css">
+    <title>Lot Size Calculator</title>
+</head>
+
+<body>
+    <h1>Lot Size Calculator</h1>
+    <button id="fetchBTCPrice" class="button1">BTC</button>
+    <button id="fetchETHPrice" class="button2">ETH</button>
+    <button id="fetchBCHPrice" class="button3">BCH</button>
+    <button id="fetchLTCPrice" class="button4">LTC</button>
+    <form id="calculator">
+        <input type="number" id="AccountBalance" placeholder="Enter Account Balance" required step="0.0000001">
+        <input type="number" id="marketPrice" placeholder="Enter Market Price" required step="0.0000001">
+        <input type="number" id="riskAmount" placeholder="Enter Risk Percentage (%)" required step="0.0000001">
+        <input type="number" id="stopLoss" placeholder="Enter Stop Loss" required step="0.0000001">
+        <button type="submit">Calculate</button>
+    </form>
+    <div id="result">Lot Size: <span id="lotSizeResult"></span></div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
